@@ -1,0 +1,56 @@
+.mobileFooterImg{
+    width: 50%;
+    text-align: center;
+    margin:auto;
+}
+
+
+@media (max-width:720px){
+    .footer3{
+        display:block;
+    }
+}
+@media(max-width:720px){
+    .footers12{
+        display:none;
+    }
+}
+.get-in{
+    width: 50%;
+    margin:25px auto 15px auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nums{
+       width: 50%;
+       margin: auto;
+       text-align: center;
+       line-height: 20px;
+       font-weight: 600;
+}
+.info{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color:green;
+     line-height: 20px;
+       font-weight: 600;
+}
+.footlink{
+    width:70%;
+    margin:  35px auto 40px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.lastfooter{
+    width: 90%;
+    padding:4px auto 60px auto;
+}
+
+@media (min-width:720px){
+    .foote3m{
+        display: none;
+    }
+}
