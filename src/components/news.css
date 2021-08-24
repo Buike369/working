@@ -336,9 +336,15 @@ color:black;
     }
     
 }
-@media (min-width:720px){
+@media (min-width:780px){
     .des{
         margin-top: 8em;
+      width: 80%;
+    }
+}
+@media (min-width:700px) and (max-width:769px){
+    .des{
+        margin-top: 4em;
       width: 80%;
     }
 }

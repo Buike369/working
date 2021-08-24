@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Section2() {
     return (
-        <div>
+        <div className="mobile-pending">
             <div className ="make">
                 <div>
                     <form>

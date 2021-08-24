@@ -1,17 +1,18 @@
 import React,{useEffect, useState} from 'react';
 import logo from './logo.svg';
-import Home from './homepage';
+import Home from './homimg';
 
 import Footer from './components/footer';
 import Feeder from './components/pade1';
 import Aos, { init } from 'aos';
 import 'aos/dist/aos.css';
 
-import Sect from './NewPage';
+import Sect from './components/NewPage';
 import NavBar12 from './components/navbar1';
-import Footer3 from './footer3';
+import Footer3 from './components/footer3';
+import Mobile from './components/navbar3';
 
-import './body1.css';
+import './components/body1.css';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -44,6 +45,7 @@ if( currentPage === '/'){
 
      
        <NavBar12/>
+       <Mobile/>
       
           {/* <IndexRoute component = {Homepage1} /> */}
            <Switch>

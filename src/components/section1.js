@@ -10,7 +10,7 @@ export default function Section1() {
                 </div>
                  <div>
                      <div className = " heading2">
-                            <img src =" neve.svg" />
+                            <img src ="neve.svg"  className="milk" />
                      </div>
                      
                  </div>

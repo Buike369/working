@@ -1,0 +1,26 @@
+.nav1{
+    width:12px; 
+     margin-bottom:2px;
+     border:1px solid black;
+}
+.new-nav-mobile{
+    display:flex;
+    
+    justify-content: space-between; 
+    padding:20px 15px;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+@media (min-width:720px){
+    .new-nav-mobile{
+        display:none;
+    }
+}
+
+@media (max-width:720px){
+    .mobile-pending{
+        display:none;
+    }
+}

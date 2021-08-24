@@ -16,7 +16,7 @@ export default function Thirdpage() {
                 </div>
                 <div>
                     <div className="podme" style={{position:'relative'}}> {/*width:'100%',height:'auto',*/}
-                        <div  style={{ position:'absolute', top:'5vw',left:'5vw'}}> <img src =" mark6.svg" alt=" " width='100%'/></div> 
+                        <div  style={{ position:'absolute', top:'5vw',left:'5vw',zIdex:'1'}}> <img src =" mark6.svg" alt=" " width='100%'/></div> 
                          <img src =" mark2.svg" alt=" " width=" 40%" style={{ position:'absolute',top:'0px',left:'9.8vw'}}/>
                          <img src ="mark1.svg " alt=" "  width="83%"  className="pos"  style={{ position:'absolute'}}/>
                          <img src ="mark4.svg " alt=" "  width=" 3%" style={{ position:'absolute', top:'12.5vw',right:'1vw'}} />
