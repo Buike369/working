@@ -40,12 +40,12 @@ color:black;
      font-size: 50px;
   }
 }
-@media (min-width:720px){
+@media (min-width:771px){
     .wind{
      padding: 30px 80px 30px 80px;
   }
 }
-@media (max-width:720px){
+@media (max-width:770px){
     .wind{
      width:95%;
      margin:auto;
@@ -66,35 +66,35 @@ color:black;
 }
 @media only screen and (max-width:600px){
     .bag54{height:280px; }
-    .pag1{width:50%; }
+    .pag1{width:56%; }
 }
 @media only screen and (min-width:600px){
     .bag54{ height:300px; }
-      .pag1{width:40%;}
+      .pag1{width:46%;}
       
 }
 @media only screen and (min-width:768px){
     .bag54{ height:380px; }
       .pag1{width:30%;}
-      .char{width:20%;} 
-    .char1{width:20%;}
-    .char2{width:20%;}
+      .char{width:50%;margin: 10px auto;} 
+    .char1{width:50%;margin:10px auto;}
+    .char2{width:50%;margin:10px auto}
     .link3{ padding: 30px 10px 30px 10px; }
 }
 @media only screen and (min-width:992px){
     .bag54{ height:420px;}
-    .pag1{width: 12%;}
-    .char{width:23%;} 
-    .char1{width:23%;}
-    .char2{width:23%;}
+    .pag1{width: 17%;}
+    .char{width:28%;} 
+    .char1{width:28%;}
+    .char2{width:28%;}
     .link3{ padding: 30px 30px 30px 40px; }
 }
 @media only screen and (min-width:1200px){
     .bag54{ height:480px;}
-    .pag1{width: 12%;}
-    .char{width:25%;} 
-    .char1{width:25%;}
-    .char2{width:25%;} 
+    .pag1{width: 20%;}
+    .char{width:30%;} 
+    .char1{width:30%;}
+    .char2{width:30%;} 
     .link3{ padding: 30px 50px 30px 80px; }   
 }
 /* @media only screen and (min-width: 768px) {
@@ -153,6 +153,7 @@ color:black;
     display:flex;
     flex-direction: column;
     padding:10px 40px ;
+    justify-content: center;
     
 }
  
@@ -210,11 +211,25 @@ color:black;
     }
 }
 .line4{
-   width:5%; 
+   width:5%;
+   margin:5px auto 3em auto; 
+   clear:both;
 }
-@media (max-width:720px){
+@media (max-width:770px){
     .line4{
         width:20%;
+        margin:25px auto 10px auto;
+    }
+}
+
+@media (min-width:771px){
+    .line4{
+        margin-top:50px;
+    }
+}
+@media (min-width:992){
+    .line4{
+        margin-top:100px;
     }
 }
 .line5{
@@ -251,18 +266,19 @@ color:black;
         padding:30px 40px;
     }
 }
-@media (min-width:720px){
+@media (min-width:780px){
     .chart{
         display:flex;
         justify-content: space-between; 
         padding: 30px 40px 30px 40px;
         flex-direction: row;
           margin-bottom:2em;
-          margin: auto;
+          margin: 33px auto;
     }
 }
 
-@media (min-width:1440px){
+
+@media (min-width:992px){
     .chart{
         padding: 30px 80px 30px 80px;
     }
@@ -273,7 +289,12 @@ color:black;
     width:80%; 
     margin:0px auto 20px auto;
 }
-@media (min-width:720px){
+@media (min-width:428px){
+    .numbers{
+        width:50%;
+    }
+}
+@media (min-width:780px){
     .numbers{
         width:25%;
         margin: 0px;
@@ -325,7 +346,7 @@ color:black;
     display:grid;
       grid-template-columns: 36vw auto ;   
 }
-@media (max-width:720px){
+@media (max-width:770px){
     .wind{
         display:block;
         padding: 0px;
@@ -359,9 +380,11 @@ color:black;
         display:none;
     }
 }
-@media (max-width:720px){
+@media (max-width:770px){
     .podme{
         margin-top: 35px;
+        padding-bottom: 50px;
+        
     }
 }
 
@@ -376,4 +399,13 @@ color:black;
 .when a{
     text-decoration: none;
     color: black;
+}
+
+@media (min-width:1440px) and (max-width:1446px){
+    .sec6{width:410px;}
+    .sec5{width: 410px;}
+}
+.when{
+    margin-bottom: 20px;
+    margin-top:15px;
 }

@@ -1,15 +1,30 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');  */
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');   */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Sora:wght@300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Besley&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+
+
 *{
-    margin:0px;
-    padding:0px;
-
-     font-size: 14px;
-
+  margin:0px;
+  padding:0px;
+  font-size: 16px;
+  /* font-family: 'Lato', sans-serif; */
+  
+  /* font-family: 'Sora', sans-serif; */
+   /* font-family: 'Poppins', sans-serif;  */
+   box-sizing: border-box; 
+   /* font-family: 'Roboto', sans-serif;  */
+   font-family: 'Mulish', sans-serif;
 }
 
 .boy{
     background-color:  #fffcf8;
     width: 100%;
-    height: auto;
+    height:100%;
 }
 
 .footer2{
@@ -17,7 +32,7 @@
      
       margin-bottom: 30px;
 }
-@media (max-width:720px){
+@media (max-width:768px){
     .footer2{
         display:flex;
         flex-direction: column;
@@ -65,4 +80,21 @@ color:black;
         justify-content:center;
         align-items: center;
     }
+}
+.docs{font-size: 1em;}
+
+@media (min-width:600px) and (max-width:770px){
+    .same1{font-size: 0.8em; justify-content: space-between; padding:5px 10px;}
+    .heading1{font-size:18px;}
+    .gala{grid-template-columns: 340px auto; padding: 30px 30px 30px 30px;}
+    .docs{font-size: 0.8em;}
+    .fanta{width:100%;}
+    
+}
+@media (max-width:760px){
+
+}
+
+body{
+    font-size:100%;
 }

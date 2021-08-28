@@ -1,4 +1,5 @@
 import React from 'react'
+import Somebody from './section3';
 
 export default function Thirdpage() {
     return (
@@ -15,6 +16,7 @@ export default function Thirdpage() {
                    </div>
                 </div>
                 <div>
+                   
                     <div className="podme" style={{position:'relative'}}> {/*width:'100%',height:'auto',*/}
                         <div  style={{ position:'absolute', top:'5vw',left:'5vw',zIdex:'1'}}> <img src =" mark6.svg" alt=" " width='100%'/></div> 
                          <img src =" mark2.svg" alt=" " width=" 40%" style={{ position:'absolute',top:'0px',left:'9.8vw'}}/>
@@ -35,7 +37,7 @@ export default function Thirdpage() {
                
                {/* second section */}
                <div>
-                    <div className="line4" style={{backgroundColor:' #E4A788',height:'5px',margin:'auto',marginBottom:'3em'}} data-aos="fade-up"></div>
+                    <div className="line4" style={{backgroundColor:' #E4A788',height:'5px'}} data-aos="fade-up"></div>
                      <div className="line5" style={{ fontSize:'4em',fontWeight:'500',textAlign:'center'}} data-aos="fade-up">How it works</div>
                </div>
 
@@ -43,7 +45,7 @@ export default function Thirdpage() {
                </div>
 
                {/*section3*/}
-               <div  className="chart" style={{marginBottom:'5em'}}>
+               <div  className="chart" style={{marginBottom:'5em'}} id="Pisuc">
                    <div className="numbers"  data-aos="fade-up">
                        <div><span style={{ fontSize:'7em',fontWeight:'bold',color:' #E4A788', }}>1.</span> <img src="how1.svg" alt=""/></div>
                         <div style={{fontSize:'1.6em',fontWeight:'600',marginBottom:'0.8em',marginTop:'0.5em'}}> Choose the products you want</div>
@@ -101,6 +103,8 @@ export default function Thirdpage() {
                  <div className="sam3" style={{margin:'auto',textAlign:'center',marginBottom:'5em',marginTop:'5em',fontSize:'1.2em',color:'#626262' }} data-aos="fade-up">- Egoras Coin</div>
              </div>
             
+                 <Somebody/>
+
                 {/*arrow*/}
                 <div style={{textAlign:'center'}} data-aos="fade-up"> <a href=" " style={{marginRight:'8px'}}><img src="galas.svg " width="40" alt=" "/></a>
                 <a href=" " style={{marginLeft:'8px'}}><img src="galas1.svg " width="40" alt=" "/></a></div>
@@ -117,6 +121,7 @@ export default function Thirdpage() {
                     </div>
                     
                 </div>
+               
 
         </div>
     )

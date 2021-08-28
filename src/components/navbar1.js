@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './navbar.css';
+import {Link} from 'react-router-dom';
 
 export default function Navbar1() {
     return (
@@ -11,9 +12,9 @@ export default function Navbar1() {
                     <div style ={{ marginTop:'11px'}}>
                     <ul className=" feed1">
                         <li><a href= " " className=" explore fsd1"> Explore Loans</a></li>
-                         <li><a href="/documents"  className=" explore1 fsd"> Document </a></li>
+                         <li><a href="/login"  className=" explore1 fsd"> Document </a></li>
                           <li><a href="/about"  className=" explore1 fsd"> About </a></li>
-                           <li><a href=" "  className=" explore1 fsd"> Token Metrics </a></li>
+                           <li><Link to="#pisuc"  className=" explore1 fsd"> Token Metrics </Link></li>
                     </ul>
                     </div>
                 </div>
