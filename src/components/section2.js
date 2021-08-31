@@ -8,12 +8,13 @@ export default function Section2() {
                     <form>
                         <div className ="make1">
                            <div>
-                             <select name="cars" className="cars">
+                             <select name="cars" className="cars" onChange="window.location =this .value;" >
+                                 <div > All Categories</div>
                                  
-                                 <option value="volvo" >All Categories</option>
-                                 <option value="saab" >Saab</option>
-                                 <option value="opel" >Opel</option>
-                                 <option value="audi" >Audi</option>
+                                 <option value=""  className="motor">food</option>
+                                 <option value="/login" className="motor">Saab</option>
+                                 <option value=" " className="motor" >Opel</option>
+                                 <option value=" " className="motor">Audi</option>
                                  
                               </select>
                           </div>

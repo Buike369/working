@@ -1,5 +1,28 @@
 
-
+.formSearch{
+    outline: none;
+    border:1px solid #55bc7e;
+    /* border-bottom: 2px solid grey;
+     border-top: 1px solid grey;  */
+      height:48px; 
+      display: block; 
+     width: 100%; 
+        background-color: #fff;
+     background-clip: padding-box; 
+} 
+.btnSearch{
+       position: absolute;
+    top: 50%;
+         transform: translateY(-50%); 
+    right: 20px;
+        width: 15px;
+    height: 15px;
+    border: none; 
+}
+.SearchDiv{
+    position:relative;
+      width:70%;  
+}
 
 
 .link1{
@@ -336,7 +359,7 @@
 }
 .same3{
 
-    font-size:4em;
+    font-size:3em;
   /* width:40%;
   padding-left: 80px;
   margin-top: 7%;
@@ -399,10 +422,19 @@ text-align: center;
 .cars{
     width: 250px;
     height: auto;
-    padding:15px 20px 15px 20px;
-    border-radius: 25px;
+    padding:15px 10px 15px 20px;
+     border-radius: 5px; 
     margin-right: 15px;
+    outline:none;
+    border:0;
+    border:1px solid grey;
     
+}
+.motor{
+    outline:none;
+       border-radius: 25px;
+       border:0;
+       padding:20px 5px;
 }
 .cars1{
      border-radius: 25px;

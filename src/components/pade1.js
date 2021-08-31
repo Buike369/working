@@ -1,5 +1,6 @@
 import React from 'react'
 import Somebody from './section3';
+import Art from './section2';
 
 export default function Thirdpage() {
     return (
@@ -69,6 +70,8 @@ export default function Thirdpage() {
                    <div className="king4" style={{backgroundColor:' #E4A788',height:'5px',margin:'auto',marginBottom:'3em'}} data-aos="fade-up"></div>
                    <div className="king1" data-aos="fade-up">Benefits</div>
                </div>
+
+               <Art/>
 
                {/* card section */}
                <div className ="chart" >

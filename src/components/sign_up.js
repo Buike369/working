@@ -8,7 +8,7 @@ const Sign_up = () => {
              <div  className="there">
              <div>
             <div className="login1">
-              <p className="formPt">Please, check your browser’s address bar to be sure you’re on https://egoras.com</p>
+              <p className="formPt">Please, check your browser’s address bar to be sure you’re on https://egoras.com/sign_up</p>
             </div>
             <div className="login2">
                 <form>

@@ -2,7 +2,7 @@
     display:grid;
     grid-template-columns: 400px auto ;
     margin-top: 3.2em;
-     padding: 30px 80px 30px 80px;
+     padding: 30px 80px 30px 67px;
     
 }
 ul li{
@@ -13,23 +13,64 @@ ul li{
 color:black;
  text-decoration: none;
  cursor: pointer;
- font-weight: bold;
+ font-weight:500;
+ font-size: 13px;
+
+
 }
+.rent li a:hover{color:#55bc7e; background-color:#EEF8F2;}
 .rent li{
     margin-bottom: 10px;
+    padding:8px 13px 8px 13px;
+  
 }
-.rent li a:hover{
-    color: #E4A788;
-}
+ .rent li:hover{ width:70%;
+    border-radius: 8px;
+    color:#55bc7e;
+    background-color:#EEF8F2;
+
+} 
+.sweet{  padding:0px 5px 0px 13px; font-size:13px;}
+.sweet1{ padding:8px 13px 8px 13px;  font-size:13px;}
+.sweet1 a{color:black;text-decoration: none;}
+.sweet1 a:hover{color: #55bc7e;}
+.sweet1:hover{background-color:#EEF8F2;width:70%;border-radius:8px;  padding:8px 13px 8px 13px;}
 .card1{
     width:40%;
     height:150px;
-    background-color:#ccc7c7;/*#e0f1e2;*/
+    background-color:#fff;/*#e0f1e2;*/
     margin-Right:1em ;
     border-radius: 12px;
     margin-bottom: 2em;
+    box-shadow: 0px 2px 10px #edebeb63;
     /* border-top:2px solid #04aa6d; */
 }
+.card2{
+    width:40%;
+    height:150px;
+    background-color:#fff;/*#e0f1e2;*/
+    margin-Right:1em ;
+    border-radius: 12px;
+    margin-bottom: 2em;
+    box-shadow: 0px 2px 10px #b4b4b45e;
+    /* border-top:2px solid #04aa6d; */
+}
+.intro{
+    font-size: 45px; font-weight: 600; margin-bottom: 40px;
+}
+.card1:hover  {
+    border-top:2px solid #04aa6d;
+       border-bottom:2px solid #04aa6d;
+}
+
+.bank,.bank1,.bank2,.bank3,.bank4,.bank5,.bank6,.bank7,.bank8{
+    display:none;
+}
+.card2:hover {
+    border-top:2px solid #04aa6d;
+    border-bottom:2px solid #04aa6d;
+}
+
 @media (min-width:720px){
     .hand1{
      font-size: 4.5em;
