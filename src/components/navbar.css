@@ -539,14 +539,16 @@ line-height: 13px;
     box-sizing: border-box;
 }
 .jink{
-    padding:10px 50px 10px 50px;
-    background:#55BC7E;
-    color:white;
+    padding:10px 30px 10px 30px;
     border-radius: 8px;
-
-}.jink1{
     color:black;
-    padding:10px 20px 10px 50px;
+}
+.jink:hover{background:#55BC7E;   color:white;}
+.jink1:hover{background:#55BC7E;   color:white;}
+.jink1{
+    color:black;
+    padding:10px 30px 10px 30px;
+  border-radius: 8px;
 }
 .alink{
     text-decoration: none;
