@@ -21,9 +21,11 @@
 }
 .SearchDiv{
     position:relative;
-      width:70%;  
+      width:73%;  
 }
-
+@media (min-width:992px) and (max-width:1026px){
+    .docs{font-size:0.9em;}
+}
 
 .link1{
     text-decoration: none;
@@ -262,7 +264,8 @@
         padding: 30px 70px 30px 80px; */
         display:flex;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding:30px 80px;
         align-items: center;     
 }
 .same15{

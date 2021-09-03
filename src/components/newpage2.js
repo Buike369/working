@@ -55,12 +55,12 @@ export default function Newpage2() {
                         <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'3em'}} className="sweet">GETTING STARTED</div>
                         <div>
                             <ul className=" rent" data-aos="fade-right">
-                                <li><a href =" " style={{fontWeight:'600'}} className="tablinks"  >  What problem is Egoras trying to Solve</a></li>
+                                <li><a href ="/what-problem-is-egoras-trying-to-solve " style={{fontWeight:'600'}} className="tablinks"  >  What problem is Egoras trying to Solve</a></li>
                                 <li><a href ="/Egoras-decentralized-autonomous-organization "> Egoras Decentralized Autonomous<br/> Organisation</a></li>
-                                <li><a href =" "  style={{paddinTop:'15px'}}> Lending Partner Governance</a></li>
-                                <li><a href =" ">Loan Approval Governance</a></li>
-                                <li><a href =" "> Interest Rate Governance</a></li>
-                                <li><a href =" "> Interest sharing formula</a></li>
+                                <li><a href ="/Lending-partner-governance "  style={{paddinTop:'15px'}}> Lending Partner Governance</a></li>
+                                <li><a href ="/Loan-approval-governance ">Loan Approval Governance</a></li>
+                                <li><a href ="/interest-rate-governance "> Interest Rate Governance</a></li>
+                                <li><a href ="/interest-sharing-formula"> Interest sharing formula</a></li>
                             </ul>
                         </div>
                         <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'3em',marginTop:'2.5em'}} className="sweet">UNCOLLATERALIZED LENDING MODULE</div>
@@ -68,7 +68,7 @@ export default function Newpage2() {
                             <ul className=" rent" data-aos="fade-right">
                                 <li><a href=" " > Loan Application</a></li>
                                  <li><a href=" " > Approved Company</a></li>
-                                 <li><a href=" " > Repay Loan</a></li>
+                                 <li id = "cup"><a href="/repay-loan " > Repay Loan</a></li>
                                  <li><a href=" " > Reward Voters</a></li>
                                  <li><a href=" " > Distribute Interest To Egr Holders</a></li>
                                  <li><a href=" " > Create Governance Request</a></li>

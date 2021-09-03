@@ -7,7 +7,7 @@ import {  BrowserRouter as Router,Link} from 'react-router-dom';
 const Documentation5 = () => {
     return (
     
-        <Router>
+        <>
              <div>
                   <div className = " same1">
                 <div  className ="same3">
@@ -34,8 +34,8 @@ const Documentation5 = () => {
                             </form>
                         </div>
                         <div style={{border: '1px solid #DADADA',width:'70%',marginBottom:'4em',marginLeft:'13px'}} > </div>
-                        <div style={{fontWeight:'',marginBottom:'3em'}} className="sweet sweet1 tablinks"  id="defaultOpen" ><a href=" "> Introduction </a></div>
-                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'3em'}} className="sweet">GETTING STARTED</div>
+                        <div style={{fontWeight:'',marginBottom:'3em'}} className="sweet sweet1 tablinks"  id="defaultOpen" ><a href="/introduction "> Introduction </a></div>
+                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em'}} className="sweet">GETTING STARTED</div>
                         <div>
                             <ul className=" rent" data-aos="fade-right">
                                 <li><a href ="/what-problem-is-egoras-trying-to-solve " style={{fontWeight:'600'}} className="tablinks"  >  What problem is Egoras trying to Solve</a></li>
@@ -46,20 +46,20 @@ const Documentation5 = () => {
                                 <li><a href ="/interest-sharing-formula"> Interest sharing formula</a></li>
                             </ul>
                         </div>
-                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'3em',marginTop:'2.5em'}} className="sweet">UNCOLLATERALIZED LENDING MODULE</div>
+                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em',marginTop:'2em'}} className="sweet">UNCOLLATERALIZED LENDING MODULE</div>
                         <div >
                             <ul className=" rent" data-aos="fade-right">
-                                <li><a href=" " > Loan Application</a></li>
-                                 <li><a href=" " > Approved Company</a></li>
-                                 <li><a href=" " > Repay Loan</a></li>
-                                 <li><a href=" " > Reward Voters</a></li>
-                                 <li><a href=" " > Distribute Interest To Egr Holders</a></li>
-                                 <li><a href=" " > Create Governance Request</a></li>
-                                 <li><a href=" " > Governance Vote</a></li>
-                                 <li><a href=" " > Validate Governance Request</a></li>
+                                <li><a href="/loan-application " > Loan Application</a></li>
+                                 <li><a href="/approve-company " > Approved Company</a></li>
+                                 <li id = "cup1"><a href="/repay-loan " > Repay Loan</a></li>
+                                 <li><a href="/reward-voters " > Reward Voters</a></li>
+                                 <li><a href="/distribute-interest-to-egr-holder " > Distribute Interest To Egr Holders</a></li>
+                                 <li><a href="/create-governance-request " > Create Governance Request</a></li>
+                                 <li><a href="/governance-vote " > Governance Vote</a></li>
+                                 <li><a href="/validate-governance-request " > Validate Governance Request</a></li>
                             </ul>
                         </div>
-                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'3em',marginTop:'2.5em'}} >EGORAS TREASURY SYSTEM</div>
+                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em',marginTop:'2em'}} className="sweet">EGORAS TREASURY SYSTEM</div>
                         <div>
                             <ul className="rent" data-aos="fade-right">
                                 <li><a href=" ">How Egoras Treasury Work </a></li>
@@ -67,10 +67,10 @@ const Documentation5 = () => {
                                 <li><a href=" "> How is the Treasury capitalized</a></li>
                             </ul>
                         </div>
-                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'3em',marginTop:'2.5em'}} className="sweet" >EGORAS TOKEN ECONOMY</div>
+                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em',marginTop:'2em'}} className="sweet" >EGORAS TOKEN ECONOMY</div>
                         <div>
                            <ul className=" rent" data-aos="fade-right">
-                               <li><a href=" "> Introduction</a></li>
+                               <li><a href="/introduction2"> Introduction</a></li>
                                 <li><a href=" ">The Egoras Dollar (EUSD) </a></li>
                                  <li><a href=" "> Egoras Governance Token(EGR)</a></li>
                                   <li><a href=" "> Summary</a></li>
@@ -85,7 +85,7 @@ const Documentation5 = () => {
                      <div>
                          <div style ={{width:'53px',height:'4px',backgroundColor:'#e4a788',marginBottom:'2em'}}></div>
 
-                         <h1 className="intro">Interest Sharing Formula</h1>
+                         <h1 className="intro">Interest sharing formula</h1>
 
 
 
@@ -165,7 +165,7 @@ const Documentation5 = () => {
             </div>
         </div>
          </div>
-        </Router>
+        </>
     
 
             

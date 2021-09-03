@@ -22,6 +22,16 @@ import Roll2 from './components/documentation2';
 import Roll3 from './components/documentation3';
 import Roll4 from './components/documentation4';
 import Roll5 from './components/documentation5';
+import Roll6 from './components/documents6';
+import Roll7 from './components/documentation7';
+import Roll8 from './components/documentation8';
+import Roll9 from './components/documentation9';
+import Roll10 from './components/documentation10';
+import Roll11 from './components/documentaion11';
+import Roll12 from './components/documentation12';
+import Roll13 from './components/documentation13';
+import Roll14 from './components/documentation14';
+import Roll15 from './components/documentation15';
 //  import Introduction from './components/NewPage';
 import Tabe from './components/tab';
 
@@ -77,6 +87,16 @@ if( currentPage === '/'){
                     <Route exact path = "/Loan-approval-governance" component = {Roll3}/>
                     <Route exact path = "/interest-rate-governance" component = {Roll4}/>
                     <Route exact path = "/interest-sharing-formula" component = {Roll5}/>
+                    <Route exact path = "/loan-application" component = {Roll6}/>
+                    <Route exact path = "/approve-company" component = {Roll7}/>
+                     <Route exact path = "/repay-loan" component = {Roll8}/>
+                      <Route exact path = "/reward-voters" component = {Roll9}/>
+                      <Route exact path = "/distribute-interest-to-egr-holder" component = {Roll10}/>
+                       <Route exact path = "/create-governance-request" component = {Roll11}/>
+                        <Route exact path = "/governance-vote" component = {Roll12}/>
+                        <Route exact path = "/validate-governance-request" component = {Roll13}/>
+                         <Route exact path = "/introduction2" component = {Roll14}/>
+                        <Route exact path = "/how-egoras-treasury-work" component = {Roll15}/>
 
            </Switch>
        

@@ -4,7 +4,7 @@ import {FiSearch} from 'react-icons/fi';
 import {  BrowserRouter as Router,Link} from 'react-router-dom';
 
 
-const Documentation = () => {
+const Documentation9 = () => {
     return (
     
         <>
@@ -38,28 +38,28 @@ const Documentation = () => {
                         <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em'}} className="sweet">GETTING STARTED</div>
                         <div>
                             <ul className=" rent" data-aos="fade-right">
-                                <li><a href = "/what-problem-is-egoras-trying-to-solve " style={{fontWeight:'600'}} className="tablinks"  >  What problem is Egoras trying to Solve</a></li>
-                                <li><a href = "/Egoras-decentralized-autonomous-organization "> Egoras Decentralized Autonomous<br/> Organisation</a></li>
-                                <li><a href = "/Lending-partner-governance"  style={{paddinTop:'15px'}}> Lending Partner Governance</a></li>
-                                <li><a href = "/Loan-approval-governance">Loan Approval Governance</a></li>
-                                <li><a href = "/interest-rate-governance "> Interest Rate Governance</a></li>
-                                <li><a href = "/interest-sharing-formula"> Interest sharing formula</a></li>
+                                <li><a href ="/what-problem-is-egoras-trying-to-solve " style={{fontWeight:'600'}} className="tablinks"  >  What problem is Egoras trying to Solve</a></li>
+                                <li><a href ="/Egoras-decentralized-autonomous-organization "> Egoras Decentralized Autonomous<br/> Organisation</a></li>
+                                <li><a href ="/Lending-partner-governance "  style={{paddinTop:'15px'}}> Lending Partner Governance</a></li>
+                                <li><a href ="/Loan-approval-governance">Loan Approval Governance</a></li>
+                                <li><a href ="/interest-rate-governance "> Interest Rate Governance</a></li>
+                                <li><a href ="/interest-sharing-formula"> Interest sharing formula</a></li>
                             </ul>
                         </div>
                         <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em',marginTop:'2em'}} className="sweet">UNCOLLATERALIZED LENDING MODULE</div>
                         <div >
                             <ul className=" rent" data-aos="fade-right">
-                                <li><a href="/loan-application" > Loan Application</a></li>
-                                 <li><a href="/approve-company" > Approved Company</a></li>
-                                 <li id = "cup1"><a href="/repay-loan" > Repay Loan</a></li>
-                                 <li><a href="/reward-voters" > Reward Voters</a></li>
+                                <li><a href="/loan-application " > Loan Application</a></li>
+                                 <li><a href="/approve-company " > Approved Company</a></li>
+                                 <li id = "cup1"><a href="/repay-loan " > Repay Loan</a></li>
+                                 <li><a href="/reward-voters " > Reward Voters</a></li>
                                  <li><a href="/distribute-interest-to-egr-holder " > Distribute Interest To Egr Holders</a></li>
                                  <li><a href="/create-governance-request " > Create Governance Request</a></li>
-                                 <li><a href="/governance-vote " > Governance Vote</a></li>
+                                 <li><a href="/governance-vote" > Governance Vote</a></li>
                                  <li><a href="/validate-governance-request " > Validate Governance Request</a></li>
                             </ul>
                         </div>
-                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em',marginTop:'2em'}} >EGORAS TREASURY SYSTEM</div>
+                        <div style={{color:' #E4A788',fontSize:'0.8em',marginBottom:'2em',marginTop:'2em'}} className="sweet">EGORAS TREASURY SYSTEM</div>
                         <div>
                             <ul className="rent" data-aos="fade-right">
                                 <li><a href=" ">How Egoras Treasury Work </a></li>
@@ -85,8 +85,34 @@ const Documentation = () => {
                      <div>
                          <div style ={{width:'53px',height:'4px',backgroundColor:'#e4a788',marginBottom:'2em'}}></div>
 
-                         <h1 className="intro">Introduction</h1>
-                            
+                         <h1 className="intro">Reward Voters</h1>
+
+
+
+                         <div style={{display:'flex',marginTop:'3em'}} id="submit">
+                              <div className ="card1 " > {/*data-aos-duration="3000"*/}
+                                  <div style={{ display:'flex',alignItems:'center',height:'150px',justifyContent:'space-between', padding:'3px 25px'}}>
+                                       <div><img src="galas.svg " alt=" "  className="galasImg"/></div> 
+                                        <div>
+                                            <div style={{color:'#87d4b3', fontSize:'13px',marginBottom:'5px'}}>previous</div>
+                                            <div style={{fontWeight:'700'}}>Repay Loan</div>
+                                        </div>
+                                  </div>
+                              </div>
+                               <div className ="card1"> 
+                                   <div style={{ display:'flex',alignItems:'center',height:'150px',justifyContent:'space-between', padding:'3px 25px',}} >
+                                       <div>
+                                           <div style={{fontSize:'13px',marginBottom:'5px'}} > Next</div>
+                                           <div style={{fontWeight:'700'}}>Distribute Interest</div>
+                                           <div style={{fontWeight:'700'}}> To Egr Holders</div>
+                                       </div>
+                                       <div><img src="galas1.svg " alt=" " /></div>
+                                   </div>
+                                
+                               </div>
+                          </div>
+
+{/*                             
                                  <div className ="card2  tabcontent" data-aos="flip-right" id="introduction first" > 
                                    <div style={{ display:'flex',alignItems:'center',height:'150px',justifyContent:'space-between', padding:'3px 25px',}} >
                                        <div>
@@ -98,7 +124,7 @@ const Documentation = () => {
                                    </div>
                                 
                                </div>
-                            
+                             */}
                           {/* <div className="tabcontent" id="second">
                             
                          <div>
@@ -147,4 +173,4 @@ const Documentation = () => {
     )
 }
 
-export default Documentation;
+export default Documentation9;

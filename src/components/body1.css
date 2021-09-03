@@ -81,7 +81,10 @@ color:black;
         align-items: center;
     }
 }
-.docs{font-size: 1em;}
+@media (min-width:1050px){
+.docs{font-size: 1.3em;}
+}
+
 
 @media (min-width:600px) and (max-width:770px){
     .same1{font-size: 0.8em; justify-content: space-between; padding:5px 10px;}
@@ -98,3 +101,4 @@ color:black;
 body{
     font-size:100%;
 }
+

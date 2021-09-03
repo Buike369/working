@@ -45,10 +45,10 @@ export default function Footer() {
                     <div>
                         <div style={{display:'flex', alignItems: 'flex-end',width:'70%',height:'85px',justifyContent:'space-around'}}>
                             {/* <a href=" "><img src="fag3.svg " alt=" " width="25"  style ={{padding:' 9px 7px ', border:'1px solid #55BC7E',borderRadius:'50%'}}/></a> */}
-                            <a href=" " ><FaFacebookF/></a>
-                             <a href=" "><FaTwitter/> </a>
-                              <a href=" "><FaYoutube/></a>
-                               <a href=" "><FaInstagram/></a>
+                            <a href=" "   style={{padding:'6px 8px',borderRadius:'50%',border:'1px solid green',color:'green'}}><FaFacebookF /></a>
+                             <a href=" "  style={{padding:'6px 7px',borderRadius:'50%',border:'1px solid green',color:'green'}}><FaTwitter/> </a>
+                              <a href=" "  style={{padding:'8px 8px 6px',borderRadius:'50%',border:'1px solid green',color:'green'}}><FaYoutube/></a>
+                               <a href=" "  style={{padding:'6px 7px',borderRadius:'50%',border:'1px solid green',color:'green'}}><FaInstagram/></a>
                              {/* <img src="fils.svg " alt=" " width="16"  style ={{padding:' 12px 12px ', border:'1px solid #55BC7E',borderRadius:'50%'}} */}
                              {/* <img src="you.svg " alt=" " width="16"  style ={{padding:' 12px 12px ', border:'1px solid #55BC7E',borderRadius:'50%'}}/ */}
                              {/* <img src="facebook.svg " alt=" " width="9"  style ={{padding:' 10px 14px ', border:'1px solid #55BC7E',borderRadius:'50%'}}/> */}
