@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react';
 import logo from './logo.svg';
-// import Home from './homimg';
+ import Home from './homimg';
 
 import Footer from './components/footer';
 import Feeder from './components/pade1';
@@ -32,6 +32,10 @@ import Roll12 from './components/documentation12';
 import Roll13 from './components/documentation13';
 import Roll14 from './components/documentation14';
 import Roll15 from './components/documentation15';
+import Loans from './components/LoansView';
+import Loans1 from './components/LoanView1';
+import Loans2 from './components/LoanView2';
+import Loans3 from './components/LoanView3';
 //  import Introduction from './components/NewPage';
 import Tabe from './components/tab';
 
@@ -80,7 +84,8 @@ if( currentPage === '/'){
               <Route exact path = "/login" component = {Login}/>
                 <Route exact path = "/introduction" component ={Roll}/>
               <Route exact path = "/signup" component = {Sign_Up}/>
-                <Route exact path = "/introduction" co mponent = {Tabe}/>
+                <Route exact path = "/introduction" component = {Tabe}/>
+                <Route exact path = "/home" component = {Home}/>
                 
                   <Route exact path = "/Egoras-decentralized-autonomous-organization" component = {Roll1}/> 
                     <Route exact path = "/Lending-partner-governance" component = {Roll2}/> 
@@ -90,13 +95,17 @@ if( currentPage === '/'){
                     <Route exact path = "/loan-application" component = {Roll6}/>
                     <Route exact path = "/approve-company" component = {Roll7}/>
                      <Route exact path = "/repay-loan" component = {Roll8}/>
-                      <Route exact path = "/reward-voters" component = {Roll9}/>
-                      <Route exact path = "/distribute-interest-to-egr-holder" component = {Roll10}/>
-                       <Route exact path = "/create-governance-request" component = {Roll11}/>
-                        <Route exact path = "/governance-vote" component = {Roll12}/>
-                        <Route exact path = "/validate-governance-request" component = {Roll13}/>
-                         <Route exact path = "/introduction2" component = {Roll14}/>
-                        <Route exact path = "/how-egoras-treasury-work" component = {Roll15}/>
+                    <Route exact path = "/reward-voters" component = {Roll9}/>
+                    <Route exact path = "/distribute-interest-to-egr-holder" component = {Roll10}/>
+                    <Route exact path = "/create-governance-request" component = {Roll11}/>
+                     <Route exact path = "/governance-vote" component = {Roll12}/>
+                    <Route exact path = "/validate-governance-request" component = {Roll13}/>
+                  <Route exact path = "/introduction2" component = {Roll14}/>
+                  <Route exact path = "/how-egoras-treasury-work" component = {Roll15}/>
+                <Route exact path = "/ongoing" component = {Loans} />
+              <Route exact path = "/any" component = {Loans1} />
+               <Route exact path = "/approve" component = {Loans2} />
+              <Route exact path = "/decline" component = {Loans3} />
 
            </Switch>
        

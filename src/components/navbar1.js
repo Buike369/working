@@ -13,7 +13,7 @@ export default function Navbar1() {
                     <ul className=" feed1">
                         <li><a href= " " className=" explore fsd1"> Explore Loans</a></li>
                          <li><a href="/login"  className=" explore1 fsd"> Document </a></li>
-                          <li><a href="/about"  className=" explore1 fsd"> About </a></li>
+                          <li><a href="/home"  className=" explore1 fsd"> About </a></li>
                            <li><a href="/what-problem-is-egoras-trying-to-solve"  className=" explore1 fsd"> Token Metrics </a></li>
                     </ul>
                     </div>
