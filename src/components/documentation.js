@@ -2,6 +2,7 @@
 import React from 'react';
 import {FiSearch} from 'react-icons/fi';
 import {  BrowserRouter as Router,Link} from 'react-router-dom';
+import './body2.css';
 
 
 const Documentation = () => {

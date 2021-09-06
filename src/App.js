@@ -36,6 +36,7 @@ import Loans from './components/LoansView';
 import Loans1 from './components/LoanView1';
 import Loans2 from './components/LoanView2';
 import Loans3 from './components/LoanView3';
+import Loans5 from './components/LoansView5';
 //  import Introduction from './components/NewPage';
 import Tabe from './components/tab';
 
@@ -106,6 +107,7 @@ if( currentPage === '/'){
               <Route exact path = "/any" component = {Loans1} />
                <Route exact path = "/approve" component = {Loans2} />
               <Route exact path = "/decline" component = {Loans3} />
+                <Route exact path = "/next1" component = {Loans5} />
 
            </Switch>
        

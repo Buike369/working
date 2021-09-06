@@ -39,7 +39,7 @@ export default function Newpage2() {
         <div style ={{width:'100%'}}>
             <div className ="gala">
                 
-                <div>
+                <div className="story1">
                     <div>
                         <div className="sweet">
                             <form>

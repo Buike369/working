@@ -10,7 +10,7 @@ export default function Section3() {
 
     return (
         <div className=" sect45">
-            <div className =" sec4" >
+             <div className =" sec4" >
                 { Roll.map((bag) =>(
                     <div  className =" sec12" data-aos="fade-up "  data-aos-duration="3000">
                 <div className = " sec5" >
@@ -24,33 +24,6 @@ export default function Section3() {
                </div>)) }
             </div>
 
-             <div className =" sec4">
-                { Roll.map((bag) =>(
-                    <div  className =" sec12" data-aos="fade-up" data-aos-duration="1000">
-                <div className = " sec5" >
-                    <div className =" sec6"><img src={bag.img} alt="fried Rice"  className="img1 "/></div>
-                    <div className =" tad">{bag.header}</div>
-                    <div className ="tad3 ">{bag.price}</div>
-                    <div className =" tad4">{bag.tag}</div>
-                    <p className="tad1 ">{bag.interest}</p>
-
-                </div>
-               </div>)) }
-            </div>
-
-              <div className =" sec4">
-                { Roll.map((bag) =>(
-                    <div  className =" sec12"  data-aos="fade-up" data-aos-duration="3000">
-                <div className = " sec5" >
-                    <div className =" sec6"><img src={bag.img} alt="fried Rice"  className="img1 "/></div>
-                    <div className =" tad">{bag.header}</div>
-                    <div className ="tad3 ">{bag.price}</div>
-                    <div className =" tad4">{bag.tag}</div>
-                    <p className="tad1 ">{bag.interest}</p>
-
-                </div>
-               </div>)) }
-            </div>
               <div style={{display:'flex',alignItems:'center'}}>
                   <img src ="capn.svg " alt =" " width ="60" />
                 <div style = {styles.third} >
@@ -60,6 +33,7 @@ export default function Section3() {
                    <a href = " " style = {styles.fir} > Next </a>
                  </div>
             </div>
+          
         </div>
     )
 }

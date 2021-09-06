@@ -349,7 +349,12 @@
         margin:auto;
     }
     .fanta{width:90%;margin: auto;}
-    .gala{display:none;}
+     .gala{display:flex;flex-direction: column-reverse;} 
+     #submit{display:flex;flex-direction: column;}
+     .gala{padding:30px 15px;}
+     .story1{display:none;}
+     .class_file1{display:none;}
+      .apple{display:none;}
 }
 @media (min-width:992px){
    .heading{
