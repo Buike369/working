@@ -81,10 +81,14 @@ color:black;
         align-items: center;
     }
 }
-@media (min-width:1050px){
+@media (min-width:992px){
 .docs{font-size: 1.3em;}
 }
 
+
+@media (max-width:600px){
+    .docs{font-size:1em;}
+}
 
 @media (min-width:600px) and (max-width:770px){
     .same1{font-size: 0.8em; justify-content: space-between; padding:5px 10px;}

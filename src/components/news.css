@@ -457,3 +457,10 @@ color:black;
     margin-bottom: 20px;
     margin-top:15px;
 }
+
+.funny{
+
+}
+@media (min-width:992px){
+    .funny{font-size:2.5em;}
+}
